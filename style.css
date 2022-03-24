@@ -100,7 +100,7 @@ ul li a:hover{
     font-family: "Georgia";
     width: 100px;
     height:30px;
-    background: transparent;
+    background: #fff6f6ce;
     border: 1px solid #000000;
     margin-top: 20px;
     color: rgb(0, 0, 0);
@@ -116,10 +116,10 @@ ul li a:hover{
 .btn{
     width: 30px;
     height: 30px;
-    background: transparent;
+    background: #fff6f6ce;
     border: 1px solid #000000;
     margin-top: 20px;
-    color: #fff;
+   
     font-size: 15px;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
