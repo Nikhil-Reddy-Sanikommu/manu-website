@@ -1,3 +1,10 @@
+@viewport {
+    width: device-width;
+    zoom: 1.1;
+    min-zoom: 0.4;
+    max-zoom: 2;
+    user-zoom: fixed;
+    }
 *{
 
     margin: 0;
@@ -8,7 +15,13 @@
 
     width: auto;
 
-    background: linear-gradient(to top, rgba(24, 23, 23, 0.205)89.3% , rgba(0, 0, 0, 0.651)10.7%), url(Usine-du-futur_0-scaled.jpg);
+    background: url(Usine-du-futur_0-scaled.jpg);
+    
+    background-repeat: no-repeat;
+    position: relative;
+    
+    margin-left: auto;
+    margin-right: auto;
     
 
     background-position: center;
@@ -49,7 +62,10 @@
     float: center;
     height: 70px;
     padding-top: 0%;
-    background-image: linear-gradient(90deg, #a1aadf9a 10%, #d3b16862 80%);
+    background-image: linear-gradient(90deg, #a1aadfa9 10%, #d3b16886 80%);
+    background-position: fixed;
+    
+    
     
     
 }
@@ -59,16 +75,19 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 400px;
+    padding-left: 500px;
     padding-top: 0px;
     width: 200px;
+    margin-top: 27px;
+    position: fixed;
+    margin-left: 50px;
     
 }
 ul li{
     
     list-style: none;
     margin-left: 30px;
-    margin-top: 27px;
+    
     font-size: 15px;
     width: 1000px;
 }
