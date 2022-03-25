@@ -61,12 +61,12 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 800px;
+  padding-left: 700px;
   padding-top: 0px;
   width: 200px;
   margin-top: 27px;
   position: fixed;
-  margin-left: 50px;
+  margin-left: 10px;
 }
 ul li {
   list-style: none;
@@ -88,7 +88,7 @@ ul li a:hover {
 }
 
 .srch-div {
-  margin-left: 150px;
+  margin-left: 100px;
   display: flex;
   flex-direction: row;
 }
